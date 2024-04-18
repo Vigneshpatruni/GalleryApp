@@ -1,0 +1,29 @@
+/* Write your code here. */
+.background {
+  background-color: #ffffff;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 19px;
+}
+.image {
+  height: 500px;
+  width: 500px;
+  margin: 19px;
+}
+.heading {
+  color: #1e293b;
+}
+.description {
+  color: #64748b;
+}
+.background-image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+.button {
+}

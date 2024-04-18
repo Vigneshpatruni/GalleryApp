@@ -1,0 +1,26 @@
+.backgroundImage-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+button {
+  filter: blur(4px);
+  transition: filter 0.3s ease;
+  height: 130px;
+  width: 130px;
+  margin: 5px;
+  
+}
+
+.blur-button {
+  filter: brightness(150%);
+}
+
+.image {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
